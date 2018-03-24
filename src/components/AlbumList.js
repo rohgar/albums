@@ -3,14 +3,13 @@
 // Import a library to help create a Component
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
-import { axios } from 'axios';
+import axios from 'axios';
 
 // Create the compnonent
 
 class AlbumList extends Component {
-    componentWillMound() {
-        axios.get('https://rallycoding.herokuapp.com/api/music_albums')
-             .then(response => console.log(response));
+    componentWillMount() {
+        axios.get('https://rallycoding.herokuapp.com/api/music_albums').then(response => console.log(response));
     }
 
     render() {
