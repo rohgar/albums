@@ -14,10 +14,9 @@ const Card = (props) => (
 
 const styles = {
     containerStyle: {
-        borderWidth: 1,
+        borderWidth: 2,
         borderRadius: 2,
-        borderColor: '#dddddd',
-        borderBottomWidth: 0,
+        borderColor: '#ccc',
         shadowColor: '#000000',
         shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.1,
