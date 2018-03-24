@@ -1,6 +1,8 @@
+/* This is a Functional Component */
+
 // Import a library to help create a Component
 import React from 'react';
-import { Text , View } from 'react-native';
+import { Text, View } from 'react-native';
 
 // Create the compnonent
 
